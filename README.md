@@ -22,3 +22,9 @@ Use FileZilla to transfer the files to your Bluehost server.  Modify your home p
 
 The lessons website contains all of the images, stylesheets, javascript, and HTML files that are needed.  You will have a fully functioning record of all of the class content that you can use anytime you need it.
 
+
+### Lessons
+
+* [Lesson 1 - Notes](index.php?lesson=01)
+* [Lesson 1 - Markdown](Lesson/01.md)
+
