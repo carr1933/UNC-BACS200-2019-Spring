@@ -47,7 +47,26 @@
             <li><a href="lesson.php?lesson=37">Lesson 37</a></li>
             <li><a href="lesson.php?lesson=38">Lesson 38</a></li>
             <li><a href="lesson.php?lesson=39">Lesson 39</a></li>
-        </ul>';
+        </ul>
+
+        <h2>Project Selector </h2>
+        <ul>
+            <li><a href="project.php?project=01">Project 1</a></li>
+            <li><a href="project.php?project=02">Project 2</a></li>
+            <li><a href="project.php?project=03">Project 3</a></li>
+            <li><a href="project.php?project=04">Project 4</a></li>
+            <li><a href="project.php?project=05">Project 5</a></li>
+            <li><a href="project.php?project=06">Project 6</a></li>
+            <li><a href="project.php?project=07">Project 7</a></li>
+            <li><a href="project.php?project=08">Project 8</a></li>
+            <li><a href="project.php?project=09">Project 9</a></li>
+            <li><a href="project.php?project=10">Project 10</a></li>
+            <li><a href="project.php?project=11">Project 11</a></li>
+            <li><a href="project.php?project=12">Project 12</a></li>
+            <li><a href="project.php?project=13">Project 13</a></li>
+            <li><a href="project.php?project=14">Project 14</a></li>
+         </ul>';
+
 
     
     // Create main part of page content

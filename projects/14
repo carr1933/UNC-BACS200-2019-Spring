@@ -1,0 +1,53 @@
+# BACS 200 - Project #14 - Course Website
+
+## Purpose
+
+Create a website that can be used as a reference for all of the course content of BACS 200. Publish
+on your Bluehost server.
+
+
+## Github Repos
+* Login on your Github account
+
+
+### Practice using Github
+* Go to [UNC-Github-Practice](https://github.com/Mark-Seaman/UNC-Github-Practice/blob/master/lesson/03.md)
+* Modify the file. This will test if you have properly cloned the repo.  You must own the repo to modify a file.
+* Commit the changes
+
+
+### Clone BACS 200 Lessons
+* Go to [UNC-BACS200-2019-Spring](https://github.com/Mark-Seaman/UNC-BACS200-2019-Spring)
+* Clone this repo into your account
+* Go to UNC-BACS200-2019-Spring repo
+* Modify the README.md file. 
+* This will test if you have properly cloned the repo.  You must own the repo to modify a file.
+* Commit the changes
+
+
+
+## Github Desktop
+
+### Run Github Desktop
+* From the Window Run Menu (type Github)
+* If you need to install Github Desktop Windows or Mac, do a Google search
+
+
+### Clone Repo
+* Clone the UNC-BACS200-2019-Spring repo from your Github account
+* Edit a file 'UNC-BACS200-2019-Spring/README.md'
+
+
+### Commit Changes
+* Show changes in Github Desktop
+* Add comment for changes
+* Commit Changes to repo
+* Push code to Github
+
+
+### Add to Bluehost Code
+* You already have code publised to your Bluehost server
+* Add files from UNC-BACS200-2019-Spring into your "bacs200/class" directory
+* Publish all files
+* Test "bacs200/class/index.php" link
+

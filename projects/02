@@ -1,0 +1,61 @@
+# BACS 200 - Project #2 - Inspiration
+
+## Student Home Page
+
+The purpose of this project is to build a simple page that describes a person that inspires you.
+
+The world can be a dark place, and we all need a little inspiration.  Who inspires you to make
+the world a little brighter.  You can pick a historical or public figure or someone that only 
+you know.
+
+Describe why they inspire you and what your response is toward them and what they believe in.
+Create an article that invites your peers to admire your hero.  Use your persuasion skills to
+win others over.  You will be judged based strength of your writing by your peers. 
+
+When you place your page on Bluehost, make sure that it does not damage your WordPress blog.  Place
+your HTML files in a directory called "bacs200".  The page you create should be "inspire.html".
+
+Balance both the business requirements and technical requirements.
+
+Make sure that your page uses a HTML template with valid HTML.
+
+Customize this code for a jump start on the HTML.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Page Title</title>
+
+    </head>
+    <body>
+
+        <h1>Inspiring Figure</h1>
+        <img src="https://shrinking-world.com/static/images/unc/bacs200/Bear_Logo.png" alt="Logo">
+        <p>Description ... </p>
+        <p>Description ... </p>
+        <p><a href="http://google.com">Learn More ...</a></p>
+        
+    </body>
+</html>
+```
+
+
+## Business Requirements
+
+* Page appears at correct URL, "bacs200/inspire.html"
+* WordPress blog is still visible at the top of the domain
+* Article describes an inspirational figure
+* Users can follow a hyperlink to learn more
+* Writing is compelling and well thought out
+
+
+## Technical Requirements
+
+* Title is set properly on the browser tab
+* Page has appropriate headline
+* Image is properly displayed
+* Text content is properly formatted
+* Page contains valid HTML

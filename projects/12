@@ -1,0 +1,53 @@
+# BACS 200 - Project #12 - Professional Website
+
+### Project Goal
+* Create a website to promote your professional image
+* Develop your professional identity
+* Get ready for your job search
+
+
+### Your Professional ID
+* Determine Your identity
+* What is your ideal job three years from now?
+* Describe your professional image you want others to see
+
+
+* Who are you?  
+    * Professional identity
+    * How do you see yourself?
+    * How do you want others to see you?
+* What can you do?
+    * Skills and experience
+    * How does your experience support your claims?
+    * How many hours in each skill?
+* Why work with you?
+    * What are your strengths?
+    * How do you work with others?
+    
+
+### Build a website
+* Create a directory "bacs200/pro/"
+* Create an index "bacs200/pro/index.html"
+
+
+### Use the Marketing Template
+* Build a page based on the [Marketing Template](http://unco-bacs.org/bacs200/templates/bootstrap-marketing.html) 
+* Construct a page to sell yourself
+
+
+## Requirements
+
+### Business Requirements
+* Page Exists at correct URL
+* Page can be used in marketing efforts
+* Clear professional identity
+* Clear skills and experience
+* Clear strengths
+
+### Technical Requirements
+* Includes carousel
+* Great images
+* Titles, favicon, supporting text
+* Good page layout
+* Valid HTML & CSS
+

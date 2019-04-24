@@ -1,0 +1,102 @@
+# BACS 200 - Project #7 - Building Templates
+
+Templates help you build new websites from code written earlier.
+
+This project requires that you build a template library and then apply the templates to all pages on your website.
+
+
+## Template Library
+
+### Create a directory
+* Create a directory named 'bacs200/templates'
+* Create an index file for the directory, named 'bacs200/templates/index.html'
+
+
+### Standard Page Templates
+* Build files with reusable code
+* Complete Pages
+    * html.html - Just enough to validate
+    * page.html - Page with stylesheet
+    * semantic.html - Add semantic elements (header, main, footer)
+    * blog.html - Superset of all page features
+   
+   
+### Standard Component Templates
+* Build files with reusable code 
+* HTML Fragments
+    * header.html - Banner layout
+    * main.html - Main page content (section, articles, aside)
+    * footer.html - Footer for page
+    * menu-top.html - Build top menu with CSS
+    * menu-side.html - Build side menu with CSS
+   
+   
+### Template Index Page
+* Template Index should build on the blog.html template file
+* Create h2 for Pages, Components
+* Add bullet lists for Complete Pages and HTML Fragments
+* Link each template into the index page
+
+
+ 
+## Applying Templates
+
+### Your website files
+* index.html
+* inspire.html
+* amuse.html
+* educate.html
+* pets/index.html
+* templates/index.html
+
+
+### Projects Page
+* Create a directory named 'projects'
+* Create a page named 'projects/index.html'
+* Use the 'blog.html' template
+* Create links
+    * inspire.html
+    * amuse.html
+    * educate.html
+    * pets/index.html
+    * templates/index.html
+
+
+### Build a Top Menu
+* Create a top menu in menu.html 
+* Menu items: Home, Projects, Templates
+
+
+### Apply the Blog Template
+* Link to Home at "bacs200/index.html"
+* Use the code in each page
+    * index.html
+    * projects/index.html
+    * templates/index.html
+
+
+### Build a Side Menu
+* In the projects/index.html build a side menu
+* Link to all of the projects in your directory
+
+
+### Apply the Side Menu 
+* Set the side menu to jump between projects
+    * inspire.html
+    * amuse.html
+    * educate.html
+    * pets/index.html
+    * templates/index.html
+
+
+### Requirements
+* Page exists at URL
+* Page is Valid HTML & CSS & No Bad Links
+* Styles for: Home, Project Pages
+* Source code matches the requirements
+* Master Page template
+* Header template
+* Main template
+* Footer template
+* Article template
+* Menu template

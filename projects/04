@@ -1,0 +1,39 @@
+# BACS 200 - Project #4 - Educate
+
+## Educate Page
+
+The purpose of this project is to build a simple page that tells about your favorite TED talk.
+
+Visit the [TED Talks website](https://www.ted.com/talks) to find a talk that lights your fire.
+
+Write a persuasion piece for your fellow students.  Convince them that they should care about the topic that you choose.
+
+Summarize the talk and add your own thoughts and opinions.  Your article should be about 250 words.  
+It will graded on both the business and technical content quality.  In other words, write good 
+HTML and present a good logical argument.
+
+The page you create should be "bacs200/educate.html".
+
+Balance both the business requirements and technical requirements.
+
+Make sure that your page uses a HTML template with valid HTML.
+
+Customize this code for a jump start on the HTML.
+
+
+## Business Requirements
+
+* Page appears at correct URL and is accessible through the student dashboard link
+* WordPress blog is still visible at the top of the domain
+* Article describes a favorite TED talk
+* Users can follow a hyperlink to get to the full talk
+* Writing is compelling and well thought out
+
+
+## Technical Requirements
+
+* Title is set properly on the browser tab
+* Page has appropriate headline
+* Image is properly displayed
+* Text content is properly formatted
+* Page contains valid HTML

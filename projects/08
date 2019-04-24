@@ -1,0 +1,80 @@
+# BACS 200 - Project #8 - Study Guide
+
+## Getting Started
+* Your files should be
+* Create this structure if you need to before moving on
+* bacs200
+    * index.html
+    * styles.css
+    * projects
+        * index.html
+        * inspire.html
+        * amuse.html
+        * educate.html
+        * pets.html
+        * templates.html
+    * templates
+        * index.html
+        * html.html
+        * page.html
+        * semantic.html
+        * blog.html
+        * header.html
+        * main.html
+        * footer.html
+        * menu-top.html
+        * menu-side.html
+
+
+## Create project file
+* Create a file 'projects/webdev.html'
+* Start with your 'templates/blog.html' file
+
+
+## Integrate Tab View logic
+* Study the code in [Bootstrap Tab View](http://unco-bacs.org/bacs200/templates/bootstrap-tabs.html) template
+* Copy this code to your template library
+* Debug it
+
+
+## Create a Tab View
+* Build a web page with a tab controller
+* Create two tabs
+    * HTML
+    * CSS
+* Build a simple headline for each tab pane
+* Debug the result
+
+
+## Create Headlines for Weeks
+* Build an h2 for each week of BACS 200
+* Create h3 (subheadings) for each class lesson
+* Add a hyperlink for each lesson to the class website
+
+
+## Create Bullet Lists
+* Create a list of key ideas for each lesson
+* Each lesson should have 3-5 concepts learned
+* This will produce a complete study guide for the entire course
+
+
+## Use Study Guide for Exam
+* You will use this guide as a quick index to info learned
+* After you leave this class you will have this quick reference guide for later use
+
+
+## Requirements
+
+### Technical
+* Page is located at correct URL (bacs200/projects/webdev.html)
+* Pages validates HTML and CSS and links
+* Tabs work properly
+* All links work properly
+* Other pages are working properly
+
+### Business
+* Page has great visual appearance
+* Page contains multiple tabs
+* Page shows content for each week
+* Each lesson has serveral bullet points
+* Study guide covers the class so far

@@ -1,0 +1,80 @@
+# BACS 200 - Project #5 - Pets
+
+## Pets Page
+
+In this project you will build a display page to showcase your pets.  
+Select two categories of pets (for our example, dogs and cats).  
+
+Get creative and use either real or fictional pets.  Mimic the structure 
+outlined with your own personalized content.
+Create a directory called "pets" to hold your web pages.   And create two 
+directories for each type "pets/dogs" and "pets/cats" and one for "images".
+
+
+## Pages
+
+Create three web pages
+
+* pets/index.html
+* pets/dogs/index.html
+* pets/cats/index.html
+
+
+## Images
+
+Find at least two dog and cat photos for images.
+
+* pets/images
+    * cat1.jpg
+    * cat2.png
+    * dog1.jpg
+    * dog2.png
+    * Bear_logo.png
+    
+
+## Page Content
+
+Pets
+
+* Page has stylesheet
+* Links to BACS 200 Class Website and "Home"
+* Links to "Cats" and "Dogs"
+* Include Bear Logo
+
+Dogs
+
+* Page has stylesheet
+* Display photos of dogs
+* Links to "Pets" and "Cats"
+
+Cats
+
+* Page has stylesheet
+* Display photos of cats
+* Links to "Pets" and "Dogs"
+
+
+## Requirements
+
+Business Requirements
+
+* Page appears at correct URL and is accessible through the student dashboard link
+* Three pages that describe pets
+* Users can follow all hyperlinks to get to the proper pages
+* Proper photos are displayed on each page
+* Each page is displayed using a stylesheet
+
+Technical Requirements
+
+* All hyperlinks use relative URLs
+* Stylesheet uses these CSS properties
+    * color
+    * background-color
+    * font-family
+    * font-size
+    * text-align
+    * text-shadow
+* Image is properly displayed (with width of 200px)
+* Images use relative URLs
+* Page contains valid HTML and valid CSS
+

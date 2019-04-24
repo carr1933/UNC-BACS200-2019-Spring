@@ -1,0 +1,58 @@
+# BACS 200 - Project #3 - Amusement
+
+## Amusement Page
+
+The purpose of this project is to build a simple page that tells about things that you find amusing.
+
+Select three pages on the internet that amuse you and create a page that contains links to the content. 
+On your page, add a heading, description, and hyperlink to the original material.  Also include some image on your
+page for each amusement.
+
+When you place your page on Bluehost, make sure that it does not damage your WordPress blog.  Place
+your HTML files in a directory called "bacs200".  The page you create should be "amuse.html".
+
+Balance both the business requirements and technical requirements.
+
+Make sure that your page uses a HTML template with valid HTML.
+
+Customize this code for a jump start on the HTML.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Page Title</title>
+
+    </head>
+    <body>
+
+        <h1>Amusements</h1>
+        <img src="https://shrinking-world.com/static/images/unc/bacs200/Bear_Logo.png" alt="Logo">
+        <h2>Amusement #1</h2>
+        <p>Description ... </p>
+        <p>Description ... </p>
+        <p><a href="http://google.com">Learn More ...</a></p>
+        
+    </body>
+</html>
+```
+
+
+## Business Requirements
+
+* Page appears at correct URL, "bacs200/amuse.html"
+* WordPress blog is still visible at the top of the domain
+* Article describes three amusements
+* Users can follow a hyperlink to learn more
+* Writing is compelling and well thought out
+
+
+## Technical Requirements
+
+* Title is set properly on the browser tab
+* Page has appropriate headline
+* Image is properly displayed
+* Text content is properly formatted
+* Page contains valid HTML
