@@ -1,0 +1,38 @@
+/*
+
+    font.css -- Demonstrate the CSS Rules for color
+
+    Make everything blue unless otherwise set
+
+    Make headings green
+
+    Set two different background colors
+
+*/
+
+body {
+    color: blue;
+    background-color: #e0e0e0;
+}
+
+p {
+    background-color: #c0c0f0;
+}
+
+a {
+    color: white;
+
+}
+
+h1,h2 {
+    color: green;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    /* color: yellow; */
+}
+

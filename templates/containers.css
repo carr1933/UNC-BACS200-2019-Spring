@@ -1,0 +1,34 @@
+body {
+    padding: 20px;
+    background-color: #eeeeee;
+}
+
+.d1 {
+    background-color: white;
+}
+
+.d2 {
+    background-color: #eeeeee;
+}
+
+.d3 {
+    box-shadow: 2px 2px 5px grey;
+    background-color: white;
+}
+
+.d4 {
+    background-color: #eeeee0;
+}
+
+.d1, .d2, .d3, .d4 {
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    margin: 10px;
+    padding: 20px;
+}
+
+.show {
+    padding: 20px;
+    margin: 10px;
+}

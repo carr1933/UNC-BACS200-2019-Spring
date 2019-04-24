@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>iframe Demo</title>
+    </head>
+    <body>
+        <h1>iframe Demo</h1>
+
+        <p><b>Problem</b> - If you place HTML in your file then the browser will render it as HTML. What if you want
+            to display the HTML source rather than the formatted output?</p>
+        <p><b>Solution 1</b> - The proper solution is to replace the characters in HTML for display.</p>
+        <pre>
+Replace the & character with &amp;
+Replace the < character with &lt;
+Replace the > character with &gt;
+        </pre>
+
+        <p><b>Solution 2</b> - A better solution is to use an iframe for display of HTML.  Load the HTML from a text file.</p>
+
+        <h2>iframe with HTML file</h2>
+        <iframe src="bullets.html" width="1000"></iframe>
+
+         <h2>iframe with text file</h2>
+        <iframe src="bullets.txt" width="1000"></iframe>
+    </body>
+</html>

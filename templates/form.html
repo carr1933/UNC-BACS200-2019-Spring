@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms Demo</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="header_logo" src="http://unco-bacs.org/bacs200/images/Bear_Logo.png" alt="Bear Logo">
+        <div>
+            <h1>Forms Demo</h1>
+            <h2>Handle input data from forms</h2>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!--
+            Main Content
+
+            This template shows how to define the main area which contains multiple articles
+            and a side-menu and a side-bar with a table of contents.
+
+            <link rel="stylesheet" href="blog.css">    
+        -->
+
+        <div class="page">
+            <h1>Forms Handling</h1>
+
+
+            <hr>
+
+            <h2>Simple Form</h2>
+
+            <form action="form-subscribe.php">
+                <input type="text" name="email" value="me@unco.edu">
+                <input type="submit">
+            </form>
+
+            <hr>
+
+            <h2>Google Search</h2>
+            <p>Use this form to search for content on Google.</p>
+
+            <form action="http://google.com/search" target="_blank">
+                <input type="search" name="q" size="30" maxlength="255">
+                <input type="submit">
+            </form>
+
+            <hr>
+
+            <h2>Learning About Forms</h2>
+
+            <h3>W3Schools</h3>
+
+            <a href="https://www.w3schools.com/html/html_forms.asp">W3Schools - Forms</a>
+
+            <h3>Input field types</h3>
+
+            <p>Attributes for different types of input</p>
+            <ul>
+                <li>text</li>
+                <li>select</li>
+                <li>textarea</li>
+                <li>radio</li>
+                <li>button</li>
+                <li>checkbox</li>
+                <li>number</li>
+                <li>email</li>
+                <li>url</li>
+                <li>tel</li>
+                <li>date</li>
+            </ul>
+
+            <h3>Demo</h3>
+
+            <p>Demo of Input Fields in Form</p>
+            <form action="form-subscribe.php">
+                <p><label>Name </label><input type="text" name="name" value="Tony Stark" required></p>
+                <p><label>Email </label><input type="email" name="email" value="me@unco.edu"></p>
+                <p><label>Stars Rating </label><input type="number" name="stars" min="1" max="5" value="3"></p>
+                <p><label>Comment </label><textarea name="comment">No comment</textarea></p>
+                <p><label>Date </label><input type="date" required></p>
+                <p><label>First time </label><input type="checkbox" name="first" checked></p>
+
+                <input type="submit" value="Save Answer">
+            </form>
+
+
+
+        </div>
+
+    </main>
+
+    <!--
+        Footer
+
+        This template shows how to define the footer with helpful links.
+
+        <link rel="stylesheet" href="blog.css">    
+
+    -->
+
+    <footer>
+        <p>
+            <a href="http://shrinking-world.com/unc/bacs200/">BACS 200</a>
+            - &copy; Copyright 2019 - Me, MySelf, and I
+            - <a href="/">My Blog</a>
+        </p>
+    </footer>
+
+
+</body>
+
+</html>

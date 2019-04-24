@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h1>BACS 200 Redirect</h1>
+        <p>
+            If you are not redirected within 3 seconds then go to
+            <a href="http://bacs200.unco.edu/BACS_200/index.html">http://bacs200.unco.edu/BACS_200/index.html</a>
+        </p>
+
+        &lt;script&gt;
+            window.location.href = "http://bacs200.unco.edu/BACS_200/index.html";
+        </script>
+    </body>
+
+</html>

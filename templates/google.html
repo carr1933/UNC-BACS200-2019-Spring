@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google Search Demo</title>
+    </head>
+    <body>
+
+        <h1>BACS 200 - Google Search Demo</h1>
+
+        <p>Use this form to search for content on Google.</p>
+
+        <!--
+            Show a form that let's a user type in something to search for.
+            Note that the action page is set to a page on another domain, http://google.com/search.
+            A target attribute puts the search results in a new browser tab.
+            There is only one input field used, "q".
+        -->
+
+        <form action="http://google.com/search" target="_blank">
+            <input type="search" name="q" size="30" maxlength="255">
+            <input type="submit">
+        </form>
+
+    </body>
+</html>

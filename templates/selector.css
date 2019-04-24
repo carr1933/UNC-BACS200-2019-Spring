@@ -1,0 +1,63 @@
+/* Elements */
+
+a {
+    color: black;
+}
+
+header img {
+    float: right;
+    border: solid 4px gray;
+}
+
+h1,h2,h3 {
+    font-family: sans-serif;
+    color: blue;
+}
+
+pre {
+    box-shadow: 2px 2px 5px gray;
+    max-width: 500px;
+    padding: 20px;
+}
+
+ul a {
+    color: green;
+}
+
+ul a:hover {
+    text-size: 200%;
+    color: blue;
+}
+
+/* Classes*/
+
+.css-code {
+    background-color: lightblue;
+}
+
+.headline {
+    font-size: 400%;
+}
+
+.html-code {
+    background-color: lightgreen;
+}
+
+.center {
+    text-align: center;
+}
+
+/* ID */
+
+#main-section {
+    background-color: #eeeeee;
+    border: solid 1px black;
+    padding: 30px;
+}
+
+#page-header {
+    padding: 100px;
+    background-color: green;
+    color: white;
+}
+

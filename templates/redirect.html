@@ -1,0 +1,35 @@
+<h1>Auto Page Redirect</h1>
+
+<p>This page demonstrates how to make a page that jumps automatically to a different page when loaded.</p>
+
+<p>Add the following text to the end of the body in the page.</p>
+
+<pre>
+    &lt;script&gt;
+        window.location.href = "http://bacs200.unco.edu/BACS_200/index.html";
+    &lt;/script&gt;
+</pre>
+
+<h2>Full Page HTML</h2>
+<p>Load a different page</p>
+<pre class="sourceCode html"><code class="sourceCode html"><span class="er">&lt;</span>!doctype html&gt;
+<span class="kw">&lt;html</span><span class="ot"> lang=</span><span class="st">&quot;en&quot;</span><span class="kw">&gt;</span>
+
+    <span class="kw">&lt;head&gt;</span>
+        <span class="kw">&lt;meta</span><span class="ot"> charset=</span><span class="st">&quot;utf-8&quot;</span><span class="kw">&gt;</span>
+    <span class="kw">&lt;/head&gt;</span>
+
+    <span class="kw">&lt;body&gt;</span>
+        <span class="kw">&lt;h1&gt;</span>BACS 200 Redirect<span class="kw">&lt;/h1&gt;</span>
+        <span class="kw">&lt;p&gt;</span>
+            If you are not redirected within 3 seconds then go to
+            <span class="kw">&lt;a</span><span class="ot"> href=</span><span class="st">&quot;http://bacs200.unco.edu/BACS_200/index.html&quot;</span><span class="kw">&gt;</span>http://bacs200.unco.edu/BACS_200/index.html<span class="kw">&lt;/a&gt;</span>
+        <span class="kw">&lt;/p&gt;</span>
+
+        <span class="kw">&lt;script&gt;</span>
+            <span class="ot">window</span>.<span class="ot">location</span>.<span class="fu">href</span> = <span class="st">&quot;http://bacs200.unco.edu/BACS_200/index.html&quot;</span>;
+        &lt;<span class="ot">/script&gt;</span>
+<span class="ot">    &lt;/body</span>&gt;
+
+&lt;<span class="ot">/html&gt;</span></code></pre>
+<hr />

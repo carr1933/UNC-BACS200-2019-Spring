@@ -1,0 +1,22 @@
+/*
+
+    border.css -- Demonstrate the CSS Rules for borders
+
+    Highlight every element on the page
+
+*/
+
+body {
+    border: solid 1px blue;
+    border-radius: 20px;
+}
+
+p {
+    border: solid 3px green;
+}
+
+h1,h2 {
+    border: solid 1px gray;
+    box-shadow: 2px 2px 5px gray;
+}
+

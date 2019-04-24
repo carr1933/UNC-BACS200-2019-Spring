@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>BACS 200 - Accordion</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="https://www.unco.edu/favicon.ico">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+
+</head>
+
+<body>
+
+    <!-- Start of Accordion -->
+    <div class="page">
+
+        <h1>Accordion Example</h1>
+
+        <a href="bootstrap.html">BACS 200 - Bootstrap Templates</a>
+
+        <p>This page Shows how to set up an Accordion control. Copy this code into a page that already uses Bootstrap.</p>
+        <p>Learn more at
+            <a href="https://getbootstrap.com/docs/4.3/components/collapse/#accordion-example">Bootstrap Accordion</a>
+        </p>
+        <hr>
+
+        <div class="accordion" id="my-accordion">
+
+
+            <!-- Panel 1 -->
+            <div class="card">
+                <div class="card-header" id="heading-1">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#pane-1" aria-expanded="true" aria-controls="pane-1">
+                            HTML Lessons
+                        </button>
+                    </h2>
+                </div>
+                <div id="pane-1" class="collapse show" aria-labelledby="heading-1" data-parent="#my-accordion">
+                    <div class="card-body">
+                        <h3>HTML Lessons Learned</h3>
+                        <p>Lots of lessons</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Panel 2 -->
+            <div class="card">
+                <div class="card-header" id="heading-2">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#pane-2" aria-expanded="false" aria-controls="pane-2">
+                            CSS Lessons
+                        </button>
+                    </h2>
+                </div>
+                <div id="pane-2" class="collapse" aria-labelledby="heading-2" data-parent="#my-accordion">
+                    <div class="card-body">
+                        <h3>CSS Lessons Learned</h3>
+                        <p>Lots of lessons</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Panel 3 -->
+            <div class="card">
+                <div class="card-header" id="heading-3">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#pane-3" aria-expanded="false" aria-controls="pane-3">
+                            Design Lessons
+                        </button>
+                    </h2>
+                </div>
+                <div id="pane-3" class="collapse" aria-labelledby="heading-3" data-parent="#my-accordion">
+                    <div class="card-body">
+                        <h3>Design Lessons Learned</h3>
+                        <p>Lots of lessons</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- End of Accordion -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

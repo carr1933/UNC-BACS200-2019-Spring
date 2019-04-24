@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Selector Workshop</title>
+        <link rel="stylesheet" href="http://bacs200.unco.edu/BACS_200/templates/selector.css">
+    </head>
+    <body>
+        <header>
+            <img src="http://bacs200.unco.edu/BACS_200/img/Bear.png" alt="Bear" width="150">
+            <h1>BACS 200 - Web Dev for Small Business</h1>
+        </header>
+        <main>
+            <h1>CSS Selector Workshop</h1>
+            <h2>Uniform selectors</h2>
+            Reset the default styles used by the browswer
+            <pre>
+                * { margin: 10px; }
+
+                main { padding: 1em; }
+
+                h1 { color:blue; }
+            </pre>
+
+            <h2>Element Selectors</h2>
+            Select elements by element type
+            <pre class="html-code">
+                < h1 class="idea" >Headline< /h1 >
+            </pre>
+            <pre class="css-code">
+                idea { color: green; }
+            </pre>
+
+            <h2>Class Selectors</h2>
+            Apply styles to different types of elements
+            <pre>
+                < h1 class="button" >Headline< /h1 >
+                < p class="button" >Paragraph< /p >
+            </pre>
+            <pre>
+                .button {
+                    background-color: green;
+                    color: white
+                }
+            </pre>
+
+            <h2>ID Selectors</h2>
+            Select specific elements
+            <pre>
+                < h1 id="headline" >
+                    Headline
+                < /h1 >
+                < nav id="main-menu" > < /nav >
+            </pre>
+            <pre>
+                #headline {
+                    background-color: green;
+                    color: white
+                }
+
+                #main-menu {
+                    display: inline;
+                }
+            </pre>
+
+            <h2>Element and Class Selector</h2>
+            Select specific elements with certain classes
+            <pre>
+                < header >
+                    < h1 id="headline" >
+                        Headline
+                    < /h1 >
+                < /header >
+            </pre>
+            <pre>
+                header.h1 {
+                    background-color: green; color: white
+                }
+            </pre>
+
+            <h2>Multiple Selectors</h2>
+            Select multiple element types
+            <pre>
+                < header >
+                    < h1 id="headline" >
+                        Headline
+                    < /h1 >
+                < /header >
+            </pre>
+            <pre>
+                h1,h2,h3 {
+                    background-color: green;
+                    color: white
+                    font-family: sans-serif;
+                }
+            </pre>
+
+            <h2>Psuedo-class CSS Selectors</h2>
+            Control styles on hyperlinks
+            <pre>
+                < a href="http://google.com">
+                    Google
+                < /a >
+            </pre>
+            <pre>
+                a:link {
+                    color: green;
+                }
+
+                a:visited {
+                    color: blue;
+                }
+
+                a:hover {
+                    color: red;
+                }
+            </pre>
+        </main>
+
+        <footer class="center">
+            &copy; Copyright 2018 - UNC -
+            <img src="http://bacs200.unco.edu/BACS_200/img/Bear.png" alt="Bear" width="50">
+        </footer>
+    </body>
+</html>
