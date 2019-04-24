@@ -47,6 +47,7 @@
             <li><a href="lesson.php?lesson=37">Lesson 37</a></li>
             <li><a href="lesson.php?lesson=38">Lesson 38</a></li>
             <li><a href="lesson.php?lesson=39">Lesson 39</a></li>
+            <li><a href="lesson.php?lesson=40">Lesson 40</a></li>
         </ul>
 
         <h2>Project Selector </h2>
@@ -72,7 +73,7 @@
     // Create main part of page content
     $settings = array(
         "site_title" => '<a href="lesson.php">UNC BACS 200 Lessons</a>',
-        "page_title" => "Lesson Index", 
+        "page_title" => "Class Content Index", 
         "content"    => $content);
 
     echo render_page($settings);
