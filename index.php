@@ -47,7 +47,9 @@
             <li><a href="lesson.php?lesson=37">Lesson 37</a></li>
             <li><a href="lesson.php?lesson=38">Lesson 38</a></li>
             <li><a href="lesson.php?lesson=39">Lesson 39</a></li>
-            <li><a href="lesson.php?lesson=40">Lesson 40</a></li>
+            <li><a href="lesson.php?lesson=40">Lesson 40</a></li>            
+            <li><a href="lesson.php?lesson=41">Lesson 41</a></li>
+
         </ul>
 
         <h2>Project Selector </h2>
